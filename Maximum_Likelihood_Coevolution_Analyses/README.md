@@ -5,6 +5,7 @@ This directory contains scripts and methods for performing maximum likelihood co
 - ```run_codeml_coevolution.sh``` Script to run **PAML (CODEML)** for ancestral codon reconstruction using the F3 × 4 codon model.
 - ```run_typeI_coevolution.py```: Python script for calculating the Type I coevolution statistic based on codons with nonsynonymous substitutions.
 - ```run_typeII_coevolution.py```: Python script for calculating the Type II coevolution statistic based on the number of branches separating consecutive nonsynonymous substitutions.
+- ```generate_matrix_figure.py```: Python script for creating a heatmap of p-values from Type I coevolution statistics.
 
 ### Step-by-Step Breakdown
 **1. Run PAML (CODEML) for Ancestral Codon Reconstruction**
@@ -34,6 +35,14 @@ This directory contains scripts and methods for performing maximum likelihood co
 **Tool:** Python (with necessary libraries)
 
 **Description:** This Python script calculates the Type II coevolution statistic, which examines the number of branches separating consecutive nonsynonymous substitutions between CpRP and NuCpRP genes.
+
+**4. Generate Heatmap for Type I Coevolution Statistic (Matrix Visualization)**
+
+**Script:** ```generate_matrix_figure.py```
+
+**Tool:** Python (with ```pandas```, ```seaborn```, ```matplotlib```, and ```numpy```)
+
+**Description:** This script generates a heatmap of the Type I coevolution statistic p-values between leading and trailing proteins, based on the data generated in this study
 
 **Usage:** ```python run_typeII_coevolution.py```
 
