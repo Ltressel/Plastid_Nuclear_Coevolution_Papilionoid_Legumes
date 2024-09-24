@@ -13,3 +13,6 @@ done
 
 # Output message when completed
 echo "Trimming complete. Results saved in trimmed_reads/"
+
+# NOTE: Ensure TrimGalore is installed and available in your system's PATH.
+# You can download TrimGalore from: https://github.com/FelixKrueger/TrimGalore
