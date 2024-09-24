@@ -44,5 +44,5 @@ This directory contains scripts and methods for performing maximum likelihood co
 
 **Description:** This script generates a heatmap of the Type I coevolution statistic p-values between leading and trailing proteins, based on the data generated in this study
 
-**Usage:** ```python run_typeII_coevolution.py```
+**Usage:** ```python generate_matrix_figure.py```
 
