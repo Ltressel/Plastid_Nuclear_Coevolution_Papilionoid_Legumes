@@ -4,7 +4,6 @@ This repository contains descriptions of scripts and bioinformatic pipelines use
 
 ## Repository Contents
 - ```Dataset_Assembly/```: 
-- ```Constraint_Tree_Construction/```: 
 - ```Substitution_Rate_Estimation/```:
 - ```Selection_Tests/```:
 - ```Evolutionary_Rate_Covariation_Analyses/```:
