@@ -59,3 +59,10 @@ This directory contains scripts and methods for assembling the datasets used in 
 
 **Usage:** ```bash extract_align_genes.sh```
 
+**Important Notes for Users**
+These scripts are designed to run the dataset assembly pipeline described in the manuscript, but **you will need to customize them with your own specific information** before use. Specifically:
+- **File paths:** Update the paths in each script (e.g., input data, output directories, reference databases) to match the locations on your local system.
+- **Database locations:** Ensure that reference databases (e.g., SortMeRNA rRNA databases, BLAST target gene databases) are correctly set in the scripts.
+- **Software installation:** Make sure that the necessary tools (e.g., FastQC, TrimGalore, SortMeRNA, Trinity, BLAST, MAFFT) are installed and properly added to your system's ```PATH```.
+- **Comments:** Sections that require updates are marked with comments like  ```# <<< UPDATE THIS PATH >>>```
+
