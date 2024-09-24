@@ -5,3 +5,35 @@ This directory contains scripts and methods for performing maximum likelihood co
 - ```run_codeml_coevolution.sh``` Script to run **PAML (CODEML)** for ancestral codon reconstruction using the F3 × 4 codon model.
 - ```run_typeI_coevolution.py```: Python script for calculating the Type I coevolution statistic based on codons with nonsynonymous substitutions.
 - ```run_typeII_coevolution.py```: Python script for calculating the Type II coevolution statistic based on the number of branches separating consecutive nonsynonymous substitutions.
+
+### Step-by-Step Breakdown
+**1. Run PAML (CODEML) for Ancestral Codon Reconstruction**
+
+**Script:** ```run_codeml_coevolution.sh```
+
+**Tool:** [PAML v4.7](https://github.com/abacus-gene/paml)
+
+**Description:** This script runs PAML (CODEML) to estimate the posterior probability of ancestral codons for each node in the phylogenetic tree using the F3 × 4 codon model.
+
+**Usage:** ```bash run_codeml_coevolution.sh```
+
+**2. Calculate Type I Coevolution Statistic**
+
+**Script:** ```run_typeI_coevolution.py```
+
+**Tool:** Python (with necessary libraries)
+
+**Description:** This Python script calculates the Type I coevolution statistic, which counts the number of codons with nonsynonymous substitutions on one, two, or three branches between CpRP and NuCpRP gene pairs.
+
+**Usage:** ```python run_typeI_coevolution.py```
+
+**3. Calculate Type II Coevolution Statistic**
+
+**Script:** ```run_typeII_coevolution.py```
+
+**Tool:** Python (with necessary libraries)
+
+**Description:** This Python script calculates the Type II coevolution statistic, which examines the number of branches separating consecutive nonsynonymous substitutions between CpRP and NuCpRP genes.
+
+**Usage:** ```python run_typeII_coevolution.py```
+
