@@ -3,11 +3,11 @@
 This repository contains descriptions of scripts and bioinformatic pipelines used for the manuscript **"Plastid-Nuclear Coevolution of Ribosomal Protein Genes in Papilionoid Legumes"** by Tressel et al. The study investigates plastid-nuclear coevolution by analyzing ribosomal protein genes encoded by both plastid and nuclear genomes across 52 taxa of the legume family Fabaceae. This research provides insight into how maximum likelihood methods and evolutionary rate covariation between nuclear and plastid genomes may drive cytonuclear coevolution, with implications for plant diversification and crop improvement. 
 
 ## Repository Contents
-- ```Dataset_Assembly/```: 
-- ```Substitution_Rate_Estimation/```:
-- ```Selection_Tests/```:
-- ```Evolutionary_Rate_Covariation_Analyses/```:
-- ```Maximum_Likelihood_Coevolution_Analyses/```:
+- ```Dataset_Assembly/```: This directory contains scripts and methods for assembling the datasets used in the study, including raw read quality control, adapter trimming, rRNA removal, transcriptome assembly, and sequence extraction. 
+- ```Substitution_Rate_Estimation/```: This directory contains scripts for estimating nonsynonymous (*dN*) and synonymous (*dS*) substitution rates using PAML (CODEML) and HyPhy, along with methods for Wilcoxon tests and boxplot generation. 
+- ```Selection_Tests/```:  This directory contains scripts for detecting positive and relaxed selection using PAML (CODEML) and HyPhy (RELAX).
+- ```Evolutionary_Rate_Covariation_Analyses/```: This directory contains scripts for performing evolutionary rate covariation (ERC) analysis, testing correlations between plastid and nuclear gene sets. 
+- ```Maximum_Likelihood_Coevolution_Analyses/```: This directory contains scripts for investigating coevolution between CpRP and NuCpRP genes using maximum likelihood methods, calculating Type I and Type II coevolution statistics, and visualizing the results in a matrix heatmap.
 
 ## Key Findings
 - Elevated nonsynonymous substitution rates (*dN*) and nonsynonymous/synonymous substitution rate ratios (*dN/dS*) in plastid-encoded and nuclear-encoded plastid-targeted ribosomal protein genes.
