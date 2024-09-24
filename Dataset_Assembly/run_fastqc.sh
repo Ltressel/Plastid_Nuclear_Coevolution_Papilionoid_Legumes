@@ -10,3 +10,6 @@ fastqc *.fastq.gz -o fastqc_output/
 
 # Output message when completed
 echo "FastQC analysis complete. Results saved in fastqc_output/"
+
+# NOTE: Ensure FastQC is installed and available in your system's PATH.
+# You can download FastQC from: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
