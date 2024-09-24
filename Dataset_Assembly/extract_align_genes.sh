@@ -3,8 +3,8 @@
 # Extract ribosomal protein genes using BLAST and align sequences with MAFFT
 
 # Define paths for input files and output directories
-TRANSCRIPTOME="trinity_output/Trinity.fasta"  # Update with the actual transcriptome file
-DB="target_gene_db.fasta"                     # Update with your BLAST database of target genes
+TRANSCRIPTOME="trinity_output/Trinity.fasta"  # <<< UPDATE WITH YOUR TRANSCRIPTOME FILE >>>
+DB="target_gene_db.fasta"                     # <<< UPDATE WITH YOUR BLAST GENE DATABASE >>>
 OUT_DIR="blast_output"
 ALIGN_DIR="aligned_sequences"
 
@@ -22,3 +22,7 @@ mafft --auto $OUT_DIR/blast_hits.fasta > $ALIGN_DIR/aligned_sequences.fasta
 
 # Output message when completed
 echo "Gene extraction and alignment complete. Results saved in $ALIGN_DIR/"
+
+# NOTE: Update the TRANSCRIPTOME and DB paths with your actual data.
+# Ensure BLAST and MAFFT are installed and available in your system's PATH.
+# You can download BLAST from: https://blast.ncbi.nlm.nih.gov/ and MAFFT from: https://mafft.cbrc.jp/alignment/software/
