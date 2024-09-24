@@ -3,7 +3,7 @@
 # Remove rRNA sequences from trimmed RNA-seq reads
 
 # Set the path to SortMeRNA's rRNA database folder
-DB_DIR="/path/to/sortmerna/rRNA_databases"  # Update this path accordingly
+DB_DIR="/path/to/sortmerna/rRNA_databases"  # <<< UPDATE THIS PATH >>>
 
 # Create output directory if it doesn't exist
 mkdir -p non_rRNA_reads
@@ -18,3 +18,6 @@ done
 
 # Output message when completed
 echo "rRNA removal complete. Non-rRNA reads saved in non_rRNA_reads/"
+
+# NOTE: Update the DB_DIR variable to point to your local rRNA databases.
+# Download SortMeRNA from: https://github.com/biocore/sortmerna
