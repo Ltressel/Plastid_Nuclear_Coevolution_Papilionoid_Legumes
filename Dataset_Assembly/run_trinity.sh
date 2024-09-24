@@ -12,3 +12,7 @@ Trinity --seqType fq --left non_rRNA_reads/*_R1_*.fastq.gz \
 
 # Output message when completed
 echo "Transcriptome assembly complete. Results saved in trinity_output/"
+
+# NOTE: Ensure Trinity is installed and available in your system's PATH.
+# You can download Trinity from: https://github.com/trinityrnaseq/trinityrnaseq
+# Adjust --max_memory and --CPU based on your system’s resources.
