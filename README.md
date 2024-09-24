@@ -3,12 +3,12 @@
 This repository contains descriptions of scripts and bioinformatic pipelines used for the manuscript **"Plastid-Nuclear Coevolution of Ribosomal Protein Genes in Papilionoid Legumes"** by Tressel et al. The study investigates plastid-nuclear coevolution by analyzing ribosomal protein genes encoded by both plastid and nuclear genomes across 52 taxa of the legume family Fabaceae. This research provides insight into how maximum likelihood methods and evolutionary rate covariation between nuclear and plastid genomes may drive cytonuclear coevolution, with implications for plant diversification and crop improvement. 
 
 ## Repository Contents
-- ```Dataset_Assembly/```
-- ```Constraint_Tree_Construction/```
-- ```Substitution_Rate_Estimation/```
-- ```Selection_Tests/```
-- ```Evolutionary_Rate_Covariation_Analyses/```
-- ```Maximum_Likelihood_Coevolution_Analyses/```
+- ```Dataset_Assembly/```: 
+- ```Constraint_Tree_Construction/```: 
+- ```Substitution_Rate_Estimation/```:
+- ```Selection_Tests/```:
+- ```Evolutionary_Rate_Covariation_Analyses/```:
+- ```Maximum_Likelihood_Coevolution_Analyses/```:
 
 ## Key Findings
 - Elevated nonsynonymous substitution rates (*dN*) and nonsynonymous/synonymous substitution rate ratios (*dN/dS*) in plastid-encoded and nuclear-encoded plastid-targeted ribosomal protein genes.
@@ -20,8 +20,8 @@ This repository contains descriptions of scripts and bioinformatic pipelines use
 - Substitution rate estimation using PAML and LRTs
 - Positive selection tests using LRTs and PAML
 - Relaxed selection tests using Hyphy
-- Evolutionary rate covariation analyses using branch length tests
-- Maximum likelihood analyses using PAML
+- Evolutionary rate covariation analyses using normalized branch length tests to assess coevolution
+- Maximum likelihood analyses to assess coevolution using PAML
 
 ## Citation
 - Tressel L.G., Shrestha B., Lee C., Choi I.-S., Ruhlman T.A., Cardoso D., Wojciechowski M.F., Jansen R.K. 2024. Plastid-nuclear coevolution of ribosomal genes in papilionoid legumes.  Molecular Phylogenetics and Evolution, in review.
