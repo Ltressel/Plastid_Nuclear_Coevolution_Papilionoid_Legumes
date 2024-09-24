@@ -6,3 +6,44 @@ This directory contains scripts and methods for detecting positive and relaxed s
 - ```run_relax_hyphy.sh```: Script for running HyPhy (RELAX) to detect relaxed selection.
 - ```p_values_for_LRTs.py```: Python script to visualize the p-values from the LRT results.
 - ```Inset_dN_dS_Figure.py```: Python script to create visualizations for dN/dS values.
+
+### Step-by-Step Breakdown
+**1. Run PAML for Positive Selection Detection**
+
+**Script:** ```run_codeml_positive_selection.sh```
+
+**Tool:** [PAML v4.7](https://github.com/abacus-gene/paml)
+
+**Description:** This script runs PAML (CODEML) to test for positive selection using the branch-site model. Two models are compared: the alternative model (which allows for positive selection in the 50-kb clade) and the null model (which constrains dN/dS to 1 within the clade).
+
+**Usage:** ```bash run_codeml_positive_selection.sh```
+
+**2. Run HyPhy for Relaxed Selection Detection**
+
+**Script:** ```run_relax_hyphy.sh```
+
+**Tool:** [HyPhy](https://www.hyphy.org/)
+
+**Description:** This script runs HyPhy (RELAX) to test for relaxed selection in the 50-kb clade. The null model assumes no change in selection intensity (k = 1), while the alternative model allows for relaxed selection (k < 1).
+
+**Usage:** ```bash run_relax_hyphy.sh```
+
+**3. Visualize LRT p-values**
+
+**Script:** ```p_values_for_LRTs.py```
+
+**Tool:** Python (with required libraries such as ```matplotlib```, ```seaborn```)
+
+**Description:** This Python script visualizes the p-values from the LRT results for the positive and relaxed selection tests.
+
+**Usage:** ```python p_values_for_LRTs.py```
+
+**4. Create Inset *dN/dS* Figure**
+
+**Script:** ```Inset_dN_dS_Figure.py```
+
+**Tool:** Python (with required libraries such as ```matplotlib```, ```seaborn```)
+
+**Description:** This Python script generates a figure displaying the *dN/dS* values for the 50-kb clade and other Fabaceae lineages, as an inset visualization for comparison.
+
+**Usage:** ```python Inset_dN_dS_Figure.py```
