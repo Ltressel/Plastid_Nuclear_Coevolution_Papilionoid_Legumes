@@ -14,6 +14,17 @@ This repository contains descriptions of scripts and bioinformatic pipelines use
 - Significant differences in *dN* for CpRP and NuCpRP substitution rates between the 50-kb inversion clade and other legumes.
 - Strong signals of cytonuclear coevolution were identified using maximum likelihood methods and evolutionary rate covariation analysis, with evidence of coordinated evolution between plastid- and nuclear-encoded ribosomal protein genes in the 50-kb clade.
 
+## Impact
+The findings of this study on plastid-nuclear coevolution have significant implications for plant biology and crop improvement. By elucidating how ribosomal protein genes encoded by plastid and nuclear genomes have coevolved, particularly in the 50-kb inversion clade of legumes, this research provides critical insights into the molecular mechanisms underlying plant diversification and adaptation.
+
+- **Enhanced Understanding of Cytonuclear Interactions:** The coevolution of plastid and nuclear genomes plays a crucial role in cellular processes, including protein synthesis and photosynthesis, which are essential for plant growth and productivity. Understanding these interactions can lead to targeted breeding strategies that enhance these fundamental functions.
+
+- **Identification of Key Genetic Targets:** The coevolutionary relationships identified between plastid-encoded and nuclear-encoded ribosomal protein genes provide valuable genetic targets for improving stress tolerance, growth efficiency, and resource use in crops. By focusing on genes with significant cytonuclear interaction, breeding programs can select for traits that improve crop resilience and yield.
+
+- **Application to Legume Crops:** As legumes are a key source of protein and nitrogen fixation in agricultural systems, understanding their unique genomic adaptations can facilitate the development of more robust legume varieties. This research can directly contribute to enhancing traits such as nitrogen efficiency, drought resistance, and pest tolerance in economically important legume crops like soybeans, peanuts, and lentils.
+
+- **Broader Applications to Other Crops:** While this study focuses on papilionoid legumes, the insights gained into cytonuclear coevolution are broadly applicable to other crop taxa. These findings could inform breeding strategies in a wide range of plant species, promoting more sustainable agricultural practices by optimizing plant growth and adaptability in changing environments.
+
 ## Methods
 - Constraint tree contruction using RAxML
 - Substitution rate estimation using PAML and LRTs
