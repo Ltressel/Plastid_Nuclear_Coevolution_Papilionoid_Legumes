@@ -1,6 +1,6 @@
 # Plastid_Nuclear_Coevolution_Papilionoid_Legumes
 ## Overview
-This repository contains descriptions of scripts and bioinformatic pipelines used for the manuscript **"Plastid-Nuclear Coevolution of Ribosomal Protein Genes in Papilionoid Legumes"** by Tressel et al. The study investigates plastid-nuclear coevolution by analyzing ribosomal protein genes encoded by both plastid and nuclear genomes across 52 taxa of the legume family Fabaceae. This research provides insight into how maximum likelihood methods and evolutionary rate covariation between nuclear and plastid genomes may drive cytonuclear coevolution, with implications for plant diversification and crop improvement. 
+This repository contains descriptions of scripts and bioinformatic pipelines used for the manuscript **"Plastid-Nuclear Coevolution of Ribosomal Protein Genes in Papilionoid Legumes"** by Tressel et al. The study investigates plastid-nuclear coevolution by analyzing ribosomal protein genes encoded by both plastid and nuclear genomes across 52 taxa of the legume family Fabaceae. This research provides insight into how coevolution statistics and evolutionary rate covariation between nuclear and plastid genomes may drive cytonuclear coevolution, with implications for plant diversification and crop improvement. 
 
 ## Repository Contents
 - ```Dataset_Assembly/```: This directory contains scripts and methods for assembling the datasets used in the study, including raw read quality control, adapter trimming, rRNA removal, transcriptome assembly, and sequence extraction. 
