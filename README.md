@@ -34,7 +34,8 @@ The findings of this study on plastid-nuclear coevolution have significant impli
 - Maximum likelihood analyses to assess coevolution using PAML
 
 ## Citation
-- Tressel L.G., Shrestha B., Lee C., Choi I.-S., Ruhlman T.A., Cardoso D., Wojciechowski M.F., Jansen R.K. 2024. Plastid-nuclear coevolution of ribosomal genes in papilionoid legumes.  Molecular Phylogenetics and Evolution, in review.
+- Tressel LG, Shrestha B, Lee C, Choi I-S, Ruhlman TA, Cardoso D, Wojciechowski MF, Jansen
+RK. 2025. Plastid–nuclear coevolution of ribosomal protein genes in papilionoid legumes. Mol Phylogenet Evol. 204:108281.
 
 ## Acknowledgements
 We thank the TEX-LL, HUEFS, and RB herbaria for voucher deposition, the Desert Legume Program at the University of Arizona for seeds.  We also thank George Yatskievych (TEX/LL) for arranging a formal Material Transfer Agreement (Decree number 8772) under the SisGen Cadastro RDC6BE9, which facilitated research activities between our institutions. Finally, we thank Luciano P. de Queiroz (HUEFS) and Haroldo C. de Lima (RB) for providing access to living collections and for arranging field work in Brazil.
